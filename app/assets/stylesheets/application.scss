@@ -1,0 +1,123 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ */
+ @import "bootstrap";
+ @import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+html,body {
+    background-color: #F2DCC0;
+    font-family: 'Kadwa';
+
+}
+
+
+.navbar {
+    background-color: #17120c;
+    margin: 0;
+}
+
+
+.navbar-nav a{
+    text-decoration: none;
+    color: #faf2f2;
+    margin: 0 1em -1em 1em;
+    .navbar-nav a:first-child {
+        color: rgb(28, 46, 211);
+    
+    }
+    
+}
+
+#hero_text {
+    /* Thabang-Blog */
+    position: absolute;
+    height: 129px;
+    left: calc(50% - 426px/2 - 32px);
+    top: calc(50% - 129px/2 - 64.5px);
+    
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5em;
+    line-height: 128px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+/* Already have an account ? */
+
+#hero_secondarytext {
+    position: absolute;
+    width: 310px;
+    height: 40px;
+    left: calc(50% - 310px/2 - 33.5px);
+    top: calc(50% - 40px/2 + 28px);
+    
+    font-family: 'Kadwa';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+/* Ellipse 4 */
+
+#ellipse4 {
+    position: absolute;
+    width: 87px;
+    height: 72px;
+    left: 32px;
+    top: 274px;
+    border-radius: 50%;
+    background: rgba(195, 142, 82, 0.15);
+}
+
+/* Ellipse 1 */
+
+#ellipse1 {
+    position: absolute;
+    width: 87px;
+    height: 72px;
+    left: 32px;
+    top: 387px;
+    border-radius: 50%;
+    background: rgba(195, 142, 82, 0.15);
+}
+
+/* Ellipse 5 */
+
+#ellipse5 {
+    position: absolute;
+    width: 87px;
+    height: 72px;
+    left: 32px;
+    top: 512px;
+    border-radius: 50%;
+    background: rgba(195, 142, 82, 0.15);
+}
+
+
+/* Ellipse 6 */
+#ellipse6 {
+    position: absolute;
+    width: 87px;
+    height: 72px;
+    left: 32px;
+    top: 646px;
+    border-radius: 50%;
+    background: rgba(195, 142, 82, 0.15);
+}
