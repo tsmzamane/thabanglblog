@@ -1,0 +1,24 @@
+<div class="form-control text-white" id="form-control">
+<%= form_with scope: :article, url:articles_path, local: true do |f| %>
+	<div class="form-group mt-3 d-flex justify-content-between">
+		<%= f.label :title, class: "col-sm-1" %>
+		<div class="col-10">
+			<%= f.text_field :title, class:"form-control" %>
+		</div>
+	</div>
+
+<div class="form-group d-flex justify-content-between">
+	<%= f.label :description, class: "col-sm-1" %>
+	<div class="col-10">
+		<%= f.text_area :description, rows: 10, class:"form-control" %>
+	</div>
+</div>
+
+<div class="form-group">
+	<%= f.submit class: "btn btn-success", id: "button" %>
+</div>
+<% end %>   
+</div>    
+
+<%= link_to '[ Cancel and Return to articles listing ]', articles_path, id:"return-article" %> 
+</div>

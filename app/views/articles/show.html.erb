@@ -1,10 +1,22 @@
-<h1>Showing Article details</h1>
-<p><b>Title</b>: <%= @article.title %>
-<p><b>Description</b>: <%= @article.description %><p>
-
-<%= link_to 'Edit', edit_article_path(@article) %> |
-<%= link_to 'Delete', article_path(@article), method: :delete, data: {confirm: "Are you sure?"} %> |
-<%= link_to 'Return to articles listing', articles_path %> |
-
-
-
+<main class="flex-grow-1">
+	<h1 class="text-center mt-4">Showing Article details</h1>
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-8 mt-4">
+					<div class="card text-center shadow mb-5 bg-white rounded">
+					<div class="card-header font-italic">
+						by Thabang Mzamane
+					</div>
+					<div class="card-body">
+					<p class="card-text"><%= truncate(@article.description, length:100) %></p>
+					<%= link_to 'Edit', edit_article_path(@article), class: "btn btn-outline-secondary" %>
+					<%= link_to 'Delete', article_path(@article), class: "btn btn-outline-danger", method: :delete, data: {confirm: "Are you sure?"} %> 
+					</div>
+					<div class="card-footer text-muted">
+							<small>Created <%= time_ago_in_words(@article.created_at) %> ago,
+								edited <%= time_ago_in_words(@article.updated_at) %> ago</small>
+					</div>
+			</div>
+		</div>   
+	</div>
+</main>
