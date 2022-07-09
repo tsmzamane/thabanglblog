@@ -5,7 +5,7 @@
 				<div class="col-8 mt-4">
 					<div class="card text-center shadow mb-5 bg-white rounded">
 					<div class="card-header font-italic">
-						by Thabang Mzamane
+						by <%= @article.user.username %>
 					</div>
 					<div class="card-body">
 					<p class="card-text"><%= truncate(@article.description, length:100) %></p>
