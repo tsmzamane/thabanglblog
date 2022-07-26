@@ -12,10 +12,10 @@ checking for sys/resource.h... yes
 creating Makefile
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20220720-82161-1lttavg sitelibdir\=./.gem.20220720-82161-1lttavg clean
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-hybm3m sitelibdir\=./.gem.20220721-5283-hybm3m clean
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20220720-82161-1lttavg sitelibdir\=./.gem.20220720-82161-1lttavg
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-hybm3m sitelibdir\=./.gem.20220721-5283-hybm3m
 compiling bytebuffer.c
 compiling monitor.c
 compiling nio4r_ext.c
@@ -110,5 +110,5 @@ cc1: warning: unrecognized command line option â€˜-Wno-constant-logical-operandâ
 linking shared-object nio4r_ext.so
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/nio4r-2.5.8/ext/nio4r
-make DESTDIR\= sitearchdir\=./.gem.20220720-82161-1lttavg sitelibdir\=./.gem.20220720-82161-1lttavg install
-/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20220720-82161-1lttavg
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-hybm3m sitelibdir\=./.gem.20220721-5283-hybm3m install
+/usr/bin/install -c -m 0755 nio4r_ext.so ./.gem.20220721-5283-hybm3m

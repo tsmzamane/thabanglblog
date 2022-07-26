@@ -3,10 +3,10 @@ current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/b
 creating Makefile
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
-make DESTDIR\= sitearchdir\=./.gem.20220720-83443-tl9tq6 sitelibdir\=./.gem.20220720-83443-tl9tq6 clean
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-rgd0ze sitelibdir\=./.gem.20220721-5283-rgd0ze clean
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
-make DESTDIR\= sitearchdir\=./.gem.20220720-83443-tl9tq6 sitelibdir\=./.gem.20220720-83443-tl9tq6
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-rgd0ze sitelibdir\=./.gem.20220721-5283-rgd0ze
 compiling breakpoint.c
 compiling byebug.c
 compiling context.c
@@ -15,5 +15,5 @@ compiling threads.c
 linking shared-object byebug/byebug.so
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/byebug-11.1.3/ext/byebug
-make DESTDIR\= sitearchdir\=./.gem.20220720-83443-tl9tq6 sitelibdir\=./.gem.20220720-83443-tl9tq6 install
-/usr/bin/install -c -m 0755 byebug.so ./.gem.20220720-83443-tl9tq6/byebug
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-rgd0ze sitelibdir\=./.gem.20220721-5283-rgd0ze install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20220721-5283-rgd0ze/byebug

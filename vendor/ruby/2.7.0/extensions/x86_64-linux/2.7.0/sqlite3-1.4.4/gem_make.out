@@ -18,10 +18,10 @@ checking for sqlite3_uint64 in sqlite3.h... yes
 creating Makefile
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/sqlite3-1.4.4/ext/sqlite3
-make DESTDIR\= sitearchdir\=./.gem.20220720-85527-e4yna3 sitelibdir\=./.gem.20220720-85527-e4yna3 clean
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-kyfd6o sitelibdir\=./.gem.20220721-5283-kyfd6o clean
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/sqlite3-1.4.4/ext/sqlite3
-make DESTDIR\= sitearchdir\=./.gem.20220720-85527-e4yna3 sitelibdir\=./.gem.20220720-85527-e4yna3
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-kyfd6o sitelibdir\=./.gem.20220721-5283-kyfd6o
 compiling aggregator.c
 compiling backup.c
 compiling database.c
@@ -80,5 +80,5 @@ compiling statement.c
 linking shared-object sqlite3/sqlite3_native.so
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/sqlite3-1.4.4/ext/sqlite3
-make DESTDIR\= sitearchdir\=./.gem.20220720-85527-e4yna3 sitelibdir\=./.gem.20220720-85527-e4yna3 install
-/usr/bin/install -c -m 0755 sqlite3_native.so ./.gem.20220720-85527-e4yna3/sqlite3
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-kyfd6o sitelibdir\=./.gem.20220721-5283-kyfd6o install
+/usr/bin/install -c -m 0755 sqlite3_native.so ./.gem.20220721-5283-kyfd6o/sqlite3

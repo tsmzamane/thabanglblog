@@ -24,7 +24,7 @@
 </div>
 
 <div class="form-group">
-	<%= f.submit  "Sign Up", class: "btn btn-success", id: "button" %>
+	<%= f.submit(@user.new_record? ? "Sign Up" : "Update account", class: "btn btn-success", id: "button") %>
 </div>
 <% end %>   
 </div>    

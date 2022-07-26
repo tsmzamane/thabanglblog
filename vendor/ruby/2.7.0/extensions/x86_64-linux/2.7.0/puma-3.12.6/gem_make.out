@@ -6,10 +6,10 @@ checking for openssl/bio.h... yes
 creating Makefile
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20220720-82161-176g8rk sitelibdir\=./.gem.20220720-82161-176g8rk clean
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-1wl6vxl sitelibdir\=./.gem.20220721-5283-1wl6vxl clean
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20220720-82161-176g8rk sitelibdir\=./.gem.20220720-82161-176g8rk
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-1wl6vxl sitelibdir\=./.gem.20220721-5283-1wl6vxl
 compiling http11_parser.c
 compiling io_buffer.c
 compiling mini_ssl.c
@@ -35,5 +35,5 @@ compiling puma_http11.c
 linking shared-object puma/puma_http11.so
 
 current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/puma-3.12.6/ext/puma_http11
-make DESTDIR\= sitearchdir\=./.gem.20220720-82161-176g8rk sitelibdir\=./.gem.20220720-82161-176g8rk install
-/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20220720-82161-176g8rk/puma
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-1wl6vxl sitelibdir\=./.gem.20220721-5283-1wl6vxl install
+/usr/bin/install -c -m 0755 puma_http11.so ./.gem.20220721-5283-1wl6vxl/puma
