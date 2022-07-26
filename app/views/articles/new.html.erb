@@ -9,7 +9,7 @@
 	<main class="flex-grow-1">
 		<h1 class="text-center mt-4">Create new article</h1>
 		<div class="container">   
-		<%= render 'shared/errors' %>
+		<%= render 'shared/errors', obj: @article %>
 		<%= render 'layouts/form' %>
 	</main>
 </body>

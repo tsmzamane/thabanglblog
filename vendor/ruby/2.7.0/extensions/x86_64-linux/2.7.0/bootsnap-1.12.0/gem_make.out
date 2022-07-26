@@ -1,0 +1,15 @@
+current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/bootsnap-1.12.0/ext/bootsnap
+/home/tmzamane/.rbenv/versions/2.7.0/bin/ruby -I /home/tmzamane/.rbenv/versions/2.7.0/lib/ruby/site_ruby/2.7.0 extconf.rb
+creating Makefile
+
+current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-198umwl sitelibdir\=./.gem.20220721-5283-198umwl clean
+
+current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-198umwl sitelibdir\=./.gem.20220721-5283-198umwl
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.so
+
+current directory: /home/tmzamane/Desktop/RoR/alphablog/vendor/ruby/2.7.0/gems/bootsnap-1.12.0/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20220721-5283-198umwl sitelibdir\=./.gem.20220721-5283-198umwl install
+/usr/bin/install -c -m 0755 bootsnap.so ./.gem.20220721-5283-198umwl/bootsnap

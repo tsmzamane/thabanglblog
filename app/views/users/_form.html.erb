@@ -1,0 +1,33 @@
+<div class="form-control text-white" id="form-control">
+	<%= render 'shared/errors', obj: @user %>
+
+<%= form_with(model: @user, class: "shadow p-3 mb-3 rounded", local: true) do |f| %>
+	<div class="form-group mt-3 d-flex justify-content-between">
+		<%= f.label :username, class: "col-sm-1" %>
+		<div class="col-10">
+			<%= f.text_field :username, class:"form-control" %>
+		</div>
+	</div>
+
+<div class="form-group d-flex justify-content-between">
+	<%= f.label :email, class: "col-sm-1" %>
+	<div class="col-10">
+		<%= f.email_field :email, class:"form-control" %>
+	</div>
+</div>
+
+<div class="form-group d-flex justify-content-between">
+	<%= f.label :password, class: "col-sm-1" %>
+	<div class="col-10">
+		<%= f.password_field :password, class:"form-control" %>
+	</div>
+</div>
+
+<div class="form-group">
+	<%= f.submit(@user.new_record? ? "Sign Up" : "Update account", class: "btn btn-success", id: "button") %>
+</div>
+<% end %>   
+</div>    
+
+<%= link_to '[ Cancel and Return to articles listing ]', articles_path, id:"return-article" %> 
+</div>
