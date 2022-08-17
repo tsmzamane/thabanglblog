@@ -1,32 +1,54 @@
-
-
 <nav class="navbar navbar-expand-lg">
   <%= link_to 'THABANG BLOG', root_path, id:"logo" %>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <%= link_to 'Home Page', root_path, class: "nav-link" %>
-      </li>
-      <li class="nav-item">
-        <%= link_to 'Bloggers', users_path, class: "nav-link" %> 
-      </li>
-  <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Articles
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <%= link_to "Create Article", new_article_path, class: "dropdown-item" %>
-          <%= link_to "View Articles", articles_path, class: "dropdown-item" %>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-    </ul>
+
+<ul class="navbar-nav mr-auto">
+	<li class="nav-item">
+		<%= link_to 'Bloggers', users_path, class: "nav-link" %> 
+	</li>
+		
+	<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Articles
+			</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<%if logged_in? %>
+				<%= link_to "Create Article", new_article_path, class: "dropdown-item" %>
+			<% end %>
+			<%= link_to "View Articles", articles_path, class: "dropdown-item" %>
+				<div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="#">Something else here</a>
+		</div>
+	</li>
+	 
+	<% if logged_in? %>
+		<li class="nav-item dropdown">
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				<%= "(Admin)" if current_user.admin? %> <%= current_user.username %>
+			</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<%= link_to "View Your profile", user_path(current_user), class: "dropdown-item" %>
+			<%= link_to "Edit your profile", edit_user_path(current_user), class: "dropdown-item" %>
+			<%= link_to "Delete profile", user_path(current_user),class: "dropdown-item text-danger", method: :delete, data:{ confirm: "Are you sure>"} %>		
+</div>
+		</li>		
+			<li class="nav-item active">
+				<%= link_to 'Logout', logout_path, class: "nav-link", method: :delete %>
+			</li>	
+		<% else%>
+			<li class="nav-item active">
+				<%= link_to 'Log in', login_path, class: "nav-link" %>
+			</li>
+			<li class="nav-item active">
+				<%= link_to 'SignUp', signup_path, class: "nav-link" %>
+			</li>
+	<% end %>
+</ul>
 		<span class="navbar-text">
-			<%= link_to 'Sign Up', '' %>
+			<%= link_to 'SignUp', '' %>
 		</span>
   </div>
 </nav>
