@@ -72,6 +72,7 @@ html, body {
 
 #form-control {
 	background-color: #000000;
+	border: 1px solid #000;
 }
 
 h1, h2 {
@@ -79,6 +80,12 @@ h1, h2 {
 }
 
 #button {
+	background-color: #4f003d;
+}
+
+#button1 {
+	background-color: #4f003d;
+	border: 1px solid #4f003d;
 }
 
 #return-article {
