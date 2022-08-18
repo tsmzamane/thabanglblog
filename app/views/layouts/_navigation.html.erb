@@ -19,8 +19,6 @@
 				<%= link_to "Create Article", new_article_path, class: "dropdown-item" %>
 			<% end %>
 			<%= link_to "View Articles", articles_path, class: "dropdown-item" %>
-				<div class="dropdown-divider"></div>
-			<a class="dropdown-item" href="#">Something else here</a>
 		</div>
 	</li>
 	 
@@ -47,8 +45,9 @@
 			</li>
 	<% end %>
 </ul>
-		<span class="navbar-text">
-			<%= link_to 'SignUp', '' %>
-		</span>
+<form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
   </div>
 </nav>
