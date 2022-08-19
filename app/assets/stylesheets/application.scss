@@ -12,14 +12,12 @@
  *
  */
 @import "bootstrap";
-@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
-
 
 html, body {
-	font-family: 'Kadwa';
 	background-color: #3a3939 !important;
   min-height: 100vh; 
-	color:rgb(239, 239, 239)
+	color:rgb(239, 239, 239);
+font-family: 'Urbanist', sans-serif;
 }
 
 .navbar {
@@ -40,7 +38,6 @@ html, body {
     left: calc(50% - 426px/2 - 32px);
     top: calc(50% - 129px/2 - 64.5px);
     
-    font-family: 'Kadwa';
     font-style: normal;
     font-weight: 600;
     font-size: 3.5em;
@@ -61,7 +58,6 @@ html, body {
     left: calc(50% - 310px/2 - 33.5px);
     top: calc(50% - 40px/2 + 28px);
     
-    font-family: 'Kadwa';
     font-style: normal;
     font-weight: 400;
     font-size: 23px;
