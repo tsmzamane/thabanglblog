@@ -12,18 +12,22 @@
  *
  */
 @import "bootstrap";
-
-html, body {
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');body {
 	background-color: #3a3939 !important;
   min-height: 100vh; 
 	color:rgb(239, 239, 239);
-font-family: 'Urbanist', sans-serif;
+	font-family: 'Overpass Mono', monospace;
+}
+
+.container {
+	font-family: 'Overpass Mono', monospace;
+	font-size: 24px;
 }
 
 .navbar {
 	background-color: #131111;
 	margin: 0;
-	
+	font-family: 'Overpass Mono', monospace;
 		.nav-link {
 				text-decoration: none;
 				color: rgb(255, 255, 255);
@@ -73,6 +77,7 @@ font-family: 'Urbanist', sans-serif;
 
 h1, h2 {
 	color: white;
+	font-family: 'Overpass Mono', monospace;
 }
 
 #button {
@@ -99,8 +104,8 @@ h1, h2 {
 #logo {
 	text-decoration: none;
 	color: white;
-	font-weight: 700;
-	font-size: 32pt;
+	font-weight: 800;
+	font-size: 36px;
 }
 
 footer {
@@ -109,6 +114,7 @@ footer {
  	color: rgb(239, 239, 239);
 	text-align: center;
 	padding: 2em;
+	font-family: 'Fredoka One', cursive;
 }
 
 .flickr_pagination {
